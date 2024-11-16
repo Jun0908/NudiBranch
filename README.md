@@ -52,7 +52,7 @@ We implemented a system where each LLM can be minted as an NFT, allowing NFT hol
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Ethereum Sepolia    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971)|
-| Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
+| Bitkub Testnet    | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e)|
 | Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
 | Flow Testnet    | [0xad7a9409d0d28ac57f59b41cf811db9eac47fd9dbf8836d3d3f806a95dcec5f2](https://evm-testnet.flowscan.io/tx/0xad7a9409d0d28ac57f59b41cf811db9eac47fd9dbf8836d3d3f806a95dcec5f2)
 | Polygon Amoy   | [0x5f6de723d264bd63e0e2367a05a08bdf9b281ab6729a047ac28d08824545de2b](https://www.oklink.com/amoy/tx/0x5f6de723d264bd63e0e2367a05a08bdf9b281ab6729a047ac28d08824545de2b)|
@@ -64,7 +64,7 @@ We implemented a system where each LLM can be minted as an NFT, allowing NFT hol
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Ethereum Sepolia    | [0x93abb166684852043b3884474853a726b1295469](https://sepolia.etherscan.io/address/0x93abb166684852043b3884474853a726b1295469)|
-| Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
+| Bitkub Testnet    | [0x0981fa48b9efe3f9e1fe878ba826c56b7ffd2d624ec252ea7d165f8e34f6a936](https://testnet.bkcscan.com/tx/0x0981fa48b9efe3f9e1fe878ba826c56b7ffd2d624ec252ea7d165f8e34f6a936)|
 | Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
 | Flow Testnet    | [0x13793c1dfcaf3ae378932b23f7972e722c5af93b371e3a1134d6dbaad2bf8d08](https://evm-testnet.flowscan.io/tx/0x13793c1dfcaf3ae378932b23f7972e722c5af93b371e3a1134d6dbaad2bf8d08)
 | Polygon Testnet   | [0xbbd4beabcc11b33f585a0de8fd30c20781c26850f7f67097a74e20d5f79b6219](https://www.oklink.com/amoy/tx/0xbbd4beabcc11b33f585a0de8fd30c20781c26850f7f67097a74e20d5f79b6219)|
@@ -75,7 +75,7 @@ We implemented a system where each LLM can be minted as an NFT, allowing NFT hol
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Ethereum Sepolia    | [0x934061130559f53ff6b57f5e54884d1245e09f41](https://sepolia.etherscan.io/address/0x934061130559f53ff6b57f5e54884d1245e09f41)|
-| Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
+| Bitkub Testnet    | [0xbdf24996cb511ef7827063563d3bdd3053e51a790daefb024b53da882487e393](https://testnet.bkcscan.com/tx/0xbdf24996cb511ef7827063563d3bdd3053e51a790daefb024b53da882487e393)|
 | Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
 | Flow Testnet    | [0x122fb831395c7e47769594d07c723c7aac2bf32a3929588296e4bfde5750dc7e](https://evm-testnet.flowscan.io/tx/0x122fb831395c7e47769594d07c723c7aac2bf32a3929588296e4bfde5750dc7e)
 | Polygon Testnet   | [0xe07ec04568e83acf9a8d3565c4b82fa8585f7dc1dbb2379a58aa36af1812928d](https://www.oklink.com/amoy/tx/0xe07ec04568e83acf9a8d3565c4b82fa8585f7dc1dbb2379a58aa36af1812928d)|
