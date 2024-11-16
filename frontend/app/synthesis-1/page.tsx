@@ -10,6 +10,7 @@ import { Progress } from "@/components/ui/progress"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import { useRouter } from 'next/navigation'
 
 // Assuming WhitelistAbi is imported correctly
 import WhitelistAbi from '../../contracts/Whitelist.json'
@@ -25,6 +26,7 @@ export default function Component() {
   const [provider, setProvider] = React.useState<ethers.providers.Web3Provider | null>(null)
   const [userAddress, setUserAddress] = React.useState<string>('')
   const [whitelisted, setWhitelisted] = React.useState<boolean | null>(null)
+  const router = useRouter()
 
   React.useEffect(() => {
     if (typeof window !== "undefined" && window.ethereum) {
@@ -119,13 +121,12 @@ export default function Component() {
           </CardContent>
         </Card>
 
-
         <div className="flex justify-between pt-6">
           <Button variant="outline" className="gap-2">
             <ArrowLeft className="w-4 h-4" />
             Back
           </Button>
-          <Button className="gap-2 bg-[#6366F1] hover:bg-[#5558E3]">
+          <Button onClick={() => router.push('/synthesis-2')} className="gap-2 bg-[#6366F1] hover:bg-[#5558E3]">
             Next
             <ArrowRight className="w-4 h-4" />
           </Button>

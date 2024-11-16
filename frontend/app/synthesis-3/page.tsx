@@ -3,6 +3,7 @@
 import * as React from "react"
 import { ArrowLeft, ArrowRight, Upload, Check } from 'lucide-react'
 import * as Client from '@web3-storage/w3up-client'
+import { useRouter } from 'next/navigation'
 import Navbar from "@/components/header/navbar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -19,6 +20,7 @@ export default function Component() {
   const [email, setEmail] = React.useState('')
   const [client, setClient] = React.useState<any>(null)
   const [file, setFile] = React.useState<File | null>(null)
+  const router = useRouter()
 
   const isValidEmail = (email: string): email is `${string}@${string}` => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
@@ -144,11 +146,11 @@ export default function Component() {
         )}
 
         <div className="flex justify-between pt-6">
-          <Button variant="outline" className="gap-2">
+          <Button variant="outline" className="gap-2" onClick={() => router.push('/synthesis-2')}>
             <ArrowLeft className="w-4 h-4" />
             Back
           </Button>
-          <Button className="gap-2 bg-[#6366F1] hover:bg-[#5558E3]">
+          <Button className="gap-2 bg-[#6366F1] hover:bg-[#5558E3]" onClick={() => router.push('/synthesis-4')}>
             Next
             <ArrowRight className="w-4 h-4" />
           </Button>

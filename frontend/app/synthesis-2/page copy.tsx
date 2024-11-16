@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import { ArrowLeft, ArrowRight, Upload } from 'lucide-react'
-import { useRouter } from 'next/navigation'
 import Navbar from "@/components/header/navbar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,18 +12,17 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 
 export default function Component() {
   const [progress, setProgress] = React.useState(50)
-  const [imageDescription, setImageDescription] = React.useState("a photo of an astronaut riding a horse on mars")
-  const [width, setWidth] = React.useState("512")
-  const [height, setHeight] = React.useState("512")
+  const [imageDescription, setImageDescription] = React.useState("")
+  const [width, setWidth] = React.useState("")
+  const [height, setHeight] = React.useState("")
   const [generatedImage, setGeneratedImage] = React.useState<string | null>(null)
   const [isGenerating, setIsGenerating] = React.useState(false)
-  const router = useRouter()
 
   const generateImage = async () => {
     setIsGenerating(true)
     // Simulating image generation with a timeout
     setTimeout(() => {
-      setGeneratedImage("/demo/demo-text-image.png")
+      setGeneratedImage(`https://picsum.photos/${width || 300}/${height || 300}`)
       setIsGenerating(false)
     }, 2000)
   }
@@ -56,7 +54,7 @@ export default function Component() {
           <CardContent className="space-y-4">
             <Textarea 
               placeholder="Enter your image description here..." 
-              className="min-h-[100px] text-muted-foreground"
+              className="min-h-[100px]"
               value={imageDescription}
               onChange={(e) => setImageDescription(e.target.value)}
             />
@@ -108,11 +106,11 @@ export default function Component() {
         )}
 
         <div className="flex justify-between pt-6">
-          <Button variant="outline" className="gap-2" onClick={() => router.push('/synthesis-1')}>
+          <Button variant="outline" className="gap-2">
             <ArrowLeft className="w-4 h-4" />
             Back
           </Button>
-          <Button className="gap-2 bg-[#6366F1] hover:bg-[#5558E3]" onClick={() => router.push('/synthesis-3')}>
+          <Button className="gap-2 bg-[#6366F1] hover:bg-[#5558E3]">
             Next
             <ArrowRight className="w-4 h-4" />
           </Button>
@@ -120,4 +118,4 @@ export default function Component() {
       </div>
     </div>
   )
-} 
+}

@@ -266,17 +266,17 @@ export default function ClientProvider({ children }: { children: React.ReactNode
   const { chains, publicClient } = useMemo(() => configureChains(
     [
     sepolia,
-    arbitrumTestnet,
-    baseTestnet,
+    //arbitrumTestnet,
+    //baseTestnet,
     bitkubTestnet,
     flareTestnet,
     flowTestnet,
-    mantleTestnet,
+    //mantleTestnet,
     polygonAmoy,
-    morphTestnet,
-    rootstockTestnet,
+    //morphTestnet,
+    //rootstockTestnet,
     scrollTestnet,
-    zircuitTestnet,
+    //zircuitTestnet,
     ],
     [
       alchemyProvider({ 

@@ -47,18 +47,16 @@ function Navbar() {
 
       {/* リンク */}
       <div style={linkContainerStyle}>
-        <NextLink href="/" passHref legacyBehavior>
+        <NextLink href="/landing" passHref legacyBehavior>
           <a style={linkStyle}>Demo</a>
         </NextLink>
-        <NextLink href="/myAsset" passHref legacyBehavior>
-          <a style={linkStyle}>Assets</a>
+        <NextLink href="/evaluate-1" passHref legacyBehavior>
+          <a style={linkStyle}>Evaluate</a>
         </NextLink>
-        <NextLink href="/createNFTs" passHref legacyBehavior>
-          <a style={linkStyle}>Create</a>
+        <NextLink href="/synthesis-1" passHref legacyBehavior>
+          <a style={linkStyle}>Synthesis</a>
         </NextLink>
-        <NextLink href="/about" passHref legacyBehavior>
-          <a style={linkStyle}>About</a>
-        </NextLink>
+        
       </div>
 
       {/* Connectボタン */}
