@@ -47,19 +47,47 @@ We implemented a system where each LLM can be minted as an NFT, allowing NFT hol
 
 ### Development
 
-**zkML Contracts**
+**IPFSNFT.sol Contracts**
 
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Ethereum Sepolia    | [0xf2c9d93716e818bda8fd9cd13b692ec5302d5568](https://sepolia.etherscan.io/address/0xf2c9d93716e818bda8fd9cd13b692ec5302d5568#code)|
+| Ethereum Sepolia    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971)|
 | Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
 | Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
 | Flow Testnet    | [0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f](https://explorer-holesky.morphl2.io/tx/0x926a111655a1c856fb46053e95689cc1fe5c3c038257d30d33bb40d11624b9cc)
-| Near Testnet    | [0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f](https://explorer.helium.fhenix.zone/address/0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f)|
 | Polygon Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
-| Rootstock Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
 | Scroll Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
-| Zircuit Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
+
+
+**SendToken.sol Contracts**
+
+| contract                   |                                                                                                                   contract address |
+| :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
+| Ethereum Sepolia    | [0x93abb166684852043b3884474853a726b1295469](https://sepolia.etherscan.io/address/0x93abb166684852043b3884474853a726b1295469)|
+| Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
+| Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
+| Flow Testnet    | [0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f](https://explorer-holesky.morphl2.io/tx/0x926a111655a1c856fb46053e95689cc1fe5c3c038257d30d33bb40d11624b9cc)
+| Polygon Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
+| Scroll Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
+
+**Whitelist.sol Contracts**
+
+| contract                   |                                                                                                                   contract address |
+| :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
+| Ethereum Sepolia    | [0x934061130559f53ff6b57f5e54884d1245e09f41](https://sepolia.etherscan.io/address/0x934061130559f53ff6b57f5e54884d1245e09f41)|
+| Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
+| Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
+| Flow Testnet    | [0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f](https://explorer-holesky.morphl2.io/tx/0x926a111655a1c856fb46053e95689cc1fe5c3c038257d30d33bb40d11624b9cc)
+| Polygon Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
+| Scroll Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
+
+
+**BlockScout**
+| contract name                 |                                                                                                                  transaction hash |
+| :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
+| IPFSNFT.sol    | [0x2a2bf65bdd259d4b8fe0f4e0eca70121ae2fd67dde1268b3126cdaf678b896a9](https://eth-sepolia.blockscout.com/tx/0x2a2bf65bdd259d4b8fe0f4e0eca70121ae2fd67dde1268b3126cdaf678b896a9)|
+| SendToken.sol    | [0x7c846d4dcb4f972a7ae0c2936e2ffa2beb42cb58819285a29d983aff08aa31e4](https://eth-sepolia.blockscout.com/tx/0x7c846d4dcb4f972a7ae0c2936e2ffa2beb42cb58819285a29d983aff08aa31e4)|
+| Whitelist.sol    | [0xb5fa995a391912ba46768c4710cb271e406828ba6124c3f22358ff7c388508d4](https://eth-sepolia.blockscout.com/tx/0xb5fa995a391912ba46768c4710cb271e406828ba6124c3f22358ff7c388508d4)|
 
 
 ### What's next for
@@ -74,7 +102,7 @@ We would like to create **the society with decentralized value** by increasing *
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
 | Demo Movie      |                                      [Nudibranch-demo](https://youtu.be/zmENJzrxZRw)|
-| Pitch Doc    |   [Nudibranch-presentation](https://www.canva.com/design/DAGRZRWummM/d9pPp11CQoBMzAf8bC4YEw/edit?utm_content=DAGRZRWummM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| Pitch Doc    |   [Nudibranch-presentation](https://www.canva.com/design/DAGVtA0iy08/Sz0p5ehf7WcXCwoIdE_ZVg/edit?utm_content=DAGVtA0iy08&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | Demo Site     |                                 [Nudibranch-demo](https://eth-sg.vercel.app/)| 
 
 
