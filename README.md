@@ -54,9 +54,9 @@ We implemented a system where each LLM can be minted as an NFT, allowing NFT hol
 | Ethereum Sepolia    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971)|
 | Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
 | Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
-| Flow Testnet    | [0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f](https://explorer-holesky.morphl2.io/tx/0x926a111655a1c856fb46053e95689cc1fe5c3c038257d30d33bb40d11624b9cc)
-| Polygon Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
-| Scroll Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
+| Flow Testnet    | [0xad7a9409d0d28ac57f59b41cf811db9eac47fd9dbf8836d3d3f806a95dcec5f2](https://evm-testnet.flowscan.io/tx/0xad7a9409d0d28ac57f59b41cf811db9eac47fd9dbf8836d3d3f806a95dcec5f2)
+| Polygon Amoy   | [0x5f6de723d264bd63e0e2367a05a08bdf9b281ab6729a047ac28d08824545de2b](https://www.oklink.com/amoy/tx/0x5f6de723d264bd63e0e2367a05a08bdf9b281ab6729a047ac28d08824545de2b)|
+| Scroll Testnet   | [0xe2a548dacdbc942d659a523fd40335000c80064c](https://sepolia.scrollscan.com/address/0xe2a548dacdbc942d659a523fd40335000c80064c)|
 
 
 **SendToken.sol Contracts**
@@ -66,9 +66,9 @@ We implemented a system where each LLM can be minted as an NFT, allowing NFT hol
 | Ethereum Sepolia    | [0x93abb166684852043b3884474853a726b1295469](https://sepolia.etherscan.io/address/0x93abb166684852043b3884474853a726b1295469)|
 | Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
 | Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
-| Flow Testnet    | [0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f](https://explorer-holesky.morphl2.io/tx/0x926a111655a1c856fb46053e95689cc1fe5c3c038257d30d33bb40d11624b9cc)
-| Polygon Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
-| Scroll Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
+| Flow Testnet    | [0x13793c1dfcaf3ae378932b23f7972e722c5af93b371e3a1134d6dbaad2bf8d08](https://evm-testnet.flowscan.io/tx/0x13793c1dfcaf3ae378932b23f7972e722c5af93b371e3a1134d6dbaad2bf8d08)
+| Polygon Testnet   | [0xbbd4beabcc11b33f585a0de8fd30c20781c26850f7f67097a74e20d5f79b6219](https://www.oklink.com/amoy/tx/0xbbd4beabcc11b33f585a0de8fd30c20781c26850f7f67097a74e20d5f79b6219)|
+| Scroll Testnet   | [0x1440a247071edde7e1016b18126163d805f98c31](https://sepolia.scrollscan.com/address/0x1440a247071edde7e1016b18126163d805f98c31)|
 
 **Whitelist.sol Contracts**
 
@@ -77,9 +77,9 @@ We implemented a system where each LLM can be minted as an NFT, allowing NFT hol
 | Ethereum Sepolia    | [0x934061130559f53ff6b57f5e54884d1245e09f41](https://sepolia.etherscan.io/address/0x934061130559f53ff6b57f5e54884d1245e09f41)|
 | Bitkub Testnet    | [0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214](https://testnet.airdao.io/explorer/address/0xDDae9FBB31943679BFD6F301F8c3D7100e5d6214/)|
 | Flare Testnet   | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://explorer.testnet.rootstock.io/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f?__ctab=general )|
-| Flow Testnet    | [0x677aB31a9D777eEdbc88CE2198dcE8de9378E78f](https://explorer-holesky.morphl2.io/tx/0x926a111655a1c856fb46053e95689cc1fe5c3c038257d30d33bb40d11624b9cc)
-| Polygon Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
-| Scroll Testnet   | [0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf](https://sepolia.lineascan.build/address/0xb764f3cea872ae3995c3eb0c6e533d6aa6c490bf#code)|
+| Flow Testnet    | [0x122fb831395c7e47769594d07c723c7aac2bf32a3929588296e4bfde5750dc7e](https://evm-testnet.flowscan.io/tx/0x122fb831395c7e47769594d07c723c7aac2bf32a3929588296e4bfde5750dc7e)
+| Polygon Testnet   | [0xe07ec04568e83acf9a8d3565c4b82fa8585f7dc1dbb2379a58aa36af1812928d](https://www.oklink.com/amoy/tx/0xe07ec04568e83acf9a8d3565c4b82fa8585f7dc1dbb2379a58aa36af1812928d)|
+| Scroll Testnet   | [0x89e0a255c7f70250fcad3dba5954a90a169b4983](https://sepolia.scrollscan.com/address/0x89e0a255c7f70250fcad3dba5954a90a169b4983)|
 
 
 **BlockScout**
