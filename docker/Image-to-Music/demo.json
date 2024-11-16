@@ -1,0 +1,9 @@
+https://bafkreialfkeaw5tqnuafmeuh7yscgjb3uqdnzqlck2276h2yydfmlr265e.ipfs.nftstorage.link
+
+
+.\env\Scripts\activate
+python app.py --ipfs_link "https://bafkreialfkeaw5tqnuafmeuh7yscgjb3uqdnzqlck2276h2yydfmlr265e.ipfs.nftstorage.link/" --duration 3
+
+https://bafkreialfkeaw5tqnuafmeuh7yscgjb3uqdnzqlck2276h2yydfmlr265e.ipfs.nftstorage.link
+
+https://bafybeiauex6t27zib2qkipzi4vejmigq5d7j3jvfzocp3iccl2ezz7neru.ipfs.nftstorage.link

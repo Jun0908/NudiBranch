@@ -1,0 +1,24 @@
+# please make sure you have already a pytorch install that is cuda enabled!
+torch==2.0.1
+torchaudio==2.0.2
+
+av
+einops
+flashy>=0.0.1
+hydra-core>=1.1
+hydra_colorlog
+julius
+num2words
+numpy
+sentencepiece
+spacy==3.5.2
+huggingface_hub
+tqdm
+transformers
+xformers
+demucs
+librosa
+
+#変更箇所
+gradio
+xformers

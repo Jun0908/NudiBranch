@@ -1,0 +1,21 @@
+# PyTorch and related libraries with CUDA 11.6 support
+torch --index-url https://download.pytorch.org/whl/cu116
+torchvision --index-url https://download.pytorch.org/whl/cu116
+torchaudio --index-url https://download.pytorch.org/whl/cu116
+
+# Required dependencies for pytorch-fid
+#numpy
+scipy
+pillow
+tqdm
+diffusers
+transformers
+pytorch-fid
+datasets
+accelerate
+
+# Fix for protobuf compatibility
+protobuf==3.20.3
+
+# Fix for numpy compatibility
+numpy==1.24.3

@@ -1,0 +1,6 @@
+flask 
+librosa
+numpy
+binascii
+json
+soundfile
