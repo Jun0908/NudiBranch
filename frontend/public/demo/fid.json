@@ -1,0 +1,19 @@
+{
+	"progress": [
+	  {
+		"progress_bar": "100%",
+		"description": "Processing step 1",
+		"completed_tasks": 2,
+		"total_time": "00:09",
+		"average_time_per_task": "4.78s"
+	  },
+	  {
+		"progress_bar": "100%",
+		"description": "Processing step 2",
+		"completed_tasks": 2,
+		"total_time": "00:03",
+		"average_time_per_task": "1.59s"
+	  }
+	],
+	"FID": 223.60601319879922
+  }
