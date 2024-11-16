@@ -35,15 +35,14 @@ By minting LLMs as NFTs and providing text-to-image generation capabilities, thi
 
 We adopted a method combining FID and human evaluations for LLM assessment. FID was used to objectively assess quality and diversity, and World was utilized to verify human authenticity rather than bots. Finally, reviews were conducted by human evaluators from diverse backgrounds. Tokens were distributed to evaluators to encourage fair and accurate evaluations.
 
-<img width="624" alt="スクリーンショット 2024-11-17 0 15 25" src="https://github.com/user-attachments/assets/ed41036b-ffa2-4004-9726-34a5291e264d">
+<img width="526" alt="スクリーンショット 2024-11-17 0 15 45" src="https://github.com/user-attachments/assets/1ab667f5-c646-4a8c-8bde-9a0000f7f936">
 
 
 **2.Text to Image with LLM Mint**
 
 We implemented a system where each LLM can be minted as an NFT, allowing NFT holders to access text-to-image prompt capabilities. The text-to-image generation is powered by Hyperbolic, a decentralized GPU network, ensuring robust, distributed processing for high-quality image creation. The generated images are stored securely on Storacha by Protocol Labs, ensuring decentralized and reliable storage. Each image is then minted as a unique NFT, creating a seamless ecosystem where users can generate, store, and own digital content with blockchain-backed authenticity and provenance.
 
-<img width="526" alt="スクリーンショット 2024-11-17 0 15 45" src="https://github.com/user-attachments/assets/1ab667f5-c646-4a8c-8bde-9a0000f7f936">
-
+<img width="624" alt="スクリーンショット 2024-11-17 0 15 25" src="https://github.com/user-attachments/assets/ed41036b-ffa2-4004-9726-34a5291e264d">
 
 ### Development
 
